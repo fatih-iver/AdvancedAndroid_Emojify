@@ -51,14 +51,14 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String FILE_PROVIDER_AUTHORITY = "com.example.android.fileprovider";
 
-    @BindView(R.id.image_view) private ImageView mImageView;
+    @BindView(R.id.image_view) ImageView mImageView;
 
-    @BindView(R.id.emojify_button) private Button mEmojifyButton;
-    @BindView(R.id.share_button) private FloatingActionButton mShareFab;
-    @BindView(R.id.save_button) private FloatingActionButton mSaveFab;
-    @BindView(R.id.clear_button) private FloatingActionButton mClearFab;
+    @BindView(R.id.emojify_button) Button mEmojifyButton;
+    @BindView(R.id.share_button) FloatingActionButton mShareFab;
+    @BindView(R.id.save_button) FloatingActionButton mSaveFab;
+    @BindView(R.id.clear_button) FloatingActionButton mClearFab;
 
-    @BindView(R.id.title_text_view) private TextView mTitleTextView;
+    @BindView(R.id.title_text_view) TextView mTitleTextView;
 
     private String mTempPhotoPath;
 
